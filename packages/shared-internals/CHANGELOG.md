@@ -1,5 +1,11 @@
 # @powersync/shared-internals
 
+## 1.4.1
+
+### Patch Changes
+
+- 7d5255f: Support version 0.5.4 of the PowerSync SQLite core extension.
+
 ## 1.4.0
 
 ### Minor Changes

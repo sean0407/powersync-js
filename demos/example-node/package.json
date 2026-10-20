@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@powersync/diagnostics": "^0.0.2",
-    "@powersync/node": "^1.2.0",
+    "@powersync/node": "^1.2.1",
     "better-sqlite3": "^12.10.0",
     "better-sqlite3-multiple-ciphers": "^12.9.0",
     "dotenv": "^16.4.7",

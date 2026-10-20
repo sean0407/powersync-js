@@ -1,5 +1,17 @@
 # @powersync/web
 
+## 2.6.0
+
+### Minor Changes
+
+- bf54805: Add `additionalInitializationFunctions` to web database open options. Custom wa-sqlite builds can export no-argument initialization functions for statically linked extensions, which are called after the PowerSync core initializer and before opening SQLite connections. A nonzero result aborts initialization.
+
+### Patch Changes
+
+- 7d5255f: Update PowerSync SQLite core extension version to 0.5.4 ([release notes](https://github.com/powersync-ja/powersync-sqlite-core/releases/tag/v0.5.4)).
+- Updated dependencies [7d5255f]
+  - @powersync/shared-internals@1.4.1
+
 ## 2.5.0
 
 ### Minor Changes
